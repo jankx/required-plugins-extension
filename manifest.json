@@ -1,0 +1,17 @@
+{
+    "name": "Required Plugins",
+    "version": "1.0.0",
+    "description": "Quản lý required/recommended plugins thông qua config. Sử dụng jankx/plugin-activation để wrap TGM Plugin Activation.",
+    "author": "Jankx",
+    "extension_id": "required-plugins",
+    "context": ["admin"],
+    "caller": {
+        "file": "RequiredPluginsExtension.php",
+        "class": "Jankx\\Extension\\RequiredPlugins\\RequiredPluginsExtension",
+        "method": "init"
+    },
+    "requirements": {
+        "php": ">=7.4"
+    },
+    "auto_activate": true
+}
