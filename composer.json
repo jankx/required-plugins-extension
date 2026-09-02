@@ -4,7 +4,7 @@
     "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
-            "Jankx\\RequiredPluginsExtension\\": "src/"
+            "Jankx\\Extension\\RequiredPlugins\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,8 @@
             "email": "puleeno@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "jankx/plugin-activation": "^2.6@RC"
+    },
+    "minimum-stability": "RC"
 }
