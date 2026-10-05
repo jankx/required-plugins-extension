@@ -6,7 +6,7 @@
     "extension_id": "required-plugins",
     "context": ["admin"],
     "caller": {
-        "file": "RequiredPluginsExtension.php",
+        "file": "src/RequiredPluginsExtension.php",
         "class": "Jankx\\Extension\\RequiredPlugins\\RequiredPluginsExtension",
         "method": "init"
     },
